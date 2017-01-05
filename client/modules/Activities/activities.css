@@ -1,0 +1,148 @@
+.actHeading{
+	    padding: 62px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.actHeading p{
+	font-weight: 600;
+    font-size: x-large;
+    line-height: 1.5;
+}
+.actRow .col{
+	padding: 0px !important;
+}
+.extraCard {
+    height: 100%;
+}
+.ExtraCurricularRow .extraCol{
+	padding:20px !important;
+}
+.extraCard .col{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.extraCard p{
+	margin:0px !important;
+}
+.extraCard h3{
+	margin:0px !important;
+}
+.extraCard img{
+	max-width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.extraCard.doubleImage .Image{
+	padding: 30px;
+	height: 100%;
+}
+.extraCard.doubleImage .Image img{
+	min-height: 100%;
+}
+.ExtraCurricularRow {
+	display: flex;
+	flex-wrap: wrap;
+	margin:0px !important;
+}
+.extraCard .heading{
+	text-align: center;
+	padding: 20px;
+}
+.extraCard .heading h3{
+	font-size: 30px;
+}
+.ExtraCurricularRow .row{
+	margin:0px !important;
+}
+.gunturImage .Image img{
+	border-radius: 5px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.gunturImage .Image{
+	padding: 20px;
+}
+.guntur_discription .gunturHeading{
+	padding-bottom: 10px;
+	text-align: center;
+}
+.guntur_discription {
+	padding: 20px
+}
+.guntur_discription .gunturDesc{
+	text-align: center;
+}
+.riffleDesc{
+	padding: 10px 30px;
+	text-align: center;
+}
+#Acadamic .actRow .row{
+	margin:0px !important;
+}
+#Acadamic .actDiv .actCol{
+	padding: 20px !important;
+}
+
+#Acadamic .actDiv .col{
+	/*padding: 10px !important;*/
+}
+#Acadamic .actDiv .awardCard{
+	margin: 5px;
+	overflow: hidden;
+}
+#Acadamic .actDiv .awardCard img{
+	max-width: 100%;
+	min-height: 100%;
+}
+#Acadamic .actDiv .awardImage{
+	border-radius: 5px;
+	overflow: hidden;
+}
+#Acadamic .act{
+	padding: 10px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+#Acadamic .act_heading{
+	text-align: center;
+}
+#Acadamic .act_heading p{
+	font-size: 25px;
+	line-height: 1.5;
+}
+#Social .actRow .row{
+	margin:0px !important;
+}
+#Social .actDiv .actCol{
+	padding: 20px !important;
+}
+
+#Social.actDiv .col{
+	/*padding: 10px !important;*/
+}
+#Social .actDiv .awardCard{
+	margin: 5px;
+	overflow: hidden;
+}
+#Social .actDiv .awardCard img{
+	max-width: 100%;
+	min-height: 100%;
+}
+#Social .actDiv .awardImage{
+	border-radius: 5px;
+	overflow: hidden;
+}
+#Social .act{
+	padding: 10px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+#Social .act_heading{
+	text-align: center;
+}
+#Social .act_heading p{
+	font-size: 25px;
+	line-height: 1.5;
+}
+.awardImage:hover img {
+    transform: scale(1.5);
+}

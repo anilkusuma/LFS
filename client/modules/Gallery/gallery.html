@@ -1,0 +1,68 @@
+<link href="./modules/Gallery/gallery.css" type="text/css" rel="stylesheet" media="screen,projection">
+<div id="Gallery">
+	<div id="slider-area-not-home" class="clearfix">
+    	<div  class="segment clearfix banner-image" style="background-image:url(/images/everypageBanner/gallery.jpg); background-color:#2a9dd6;background-size: cover !important;">
+			<div class="banner-not-main-content" style="height: 350px">
+				<div class="PageText">GALLERY</div>
+			</div>
+		</div>
+	</div>
+	<div class="gallery-images-div">
+        <div class="navig-row row">
+            <div class="col s12">
+                <a class="breadcrumb navig-breadcrumb" ng-repeat="name in names" ng-click="displayCurrentDirectoryImages(name.dir)">{{name.justName.toTitleCase()}}</a>
+            </div>
+        </div>
+        <div class="images-row row">
+            <div class="col s12 m4 l3" ng-repeat="folder in folders">
+                <div class="card hoverable folder-image-card '+i+'" id="'+i+'" ng-click="displayCurrentDirectoryImages(folder)">
+                    <div class="card-images">
+                        <figure  class="folder-image-div effect-apollo">
+                            <div class="big-image">
+                                <img src=".{{folder.name}}/{{folder.files[folder.fileBig]}}" class="folder-big-image">
+                            </div>
+                            <div class="secondary-image">
+                                <img src=".{{folder.name}}/{{folder.files[folder.secondFile]}}" class="folder-sec-1-image">
+                                <img src=".{{folder.name}}/{{folder.files[folder.thirdFile]}}" class="folder-sec-2-image">
+                            </div>
+                            <figcaption>
+                				<h2>{{folder.newName}}</h2>
+	            			</figcaption> 
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3" ng-repeat="file in files">
+                <div class="card hoverable file-images-card">
+                    <figure class="effect-apollo" ng-click="albumClicked($index)">
+	                	<img src="./{{dir.name}}/{{file}}" class="file-big-image figureImage figureInside" alt="{{file.split('.')[0].toTitleCase()}}"></img>
+	                    <figcaption>
+	                    </figcaption>           
+	                </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- <div class="galleryImages">
+		<div class="row albums-row">
+            <div class="col s6 m4 l3" ng-repeat="album in albums track by $index" >
+                <figure class="effect-apollo" ng-click="albumClicked($index)">
+                    <img src="{{album.albumImage}}" class="figureImage figureInside" alt="{{album.albumName}}">
+                    <figcaption>
+                        <h2>{{album.albumName}}</h2>
+                    </figcaption>           
+                </figure>
+            </div>
+        </div>
+		<div class="row images-row">
+            <div class="col s6 m4 l3" ng-repeat="image in images track by $index" >
+                <figure class="effect-apollo" ng-click="imageClicked($index)">
+                    <img src="{{image.imagePath}}" class="figureImage figureInside" alt="{{image.imageName}}">
+                    <figcaption>
+                        <h2>{{image.imageName}}</h2>
+                    </figcaption>           
+                </figure>
+            </div>
+        </div>
+	</div> -->
+</div>

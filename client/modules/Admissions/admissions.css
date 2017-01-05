@@ -1,0 +1,31 @@
+.EnquiryForm{
+	padding: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.EnquiryForm .row{
+	margin:0px !important;
+	width: 100%;
+
+}
+.submitRow{
+	padding-top: 30px;
+    text-align: center;
+}
+.submitbutton{
+	background-color: #CF4520;
+    font-weight: 600;
+}
+
+#Enquiry .banner-not-main-content{
+	background-color:rgba(207, 69, 32, 0.67);
+}
+.input-field label {
+    color: rgba(207, 69, 32, 1);
+}
+input{
+	border-bottom: 1px solid rgba(207, 69, 32, 0.6);
+}

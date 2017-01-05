@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="Home" ng-controller="HomeMain" >
+	<head>
+		<base href="/">
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	    <title>Little Flower English Medium High School</title>
+	    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	    <link rel="stylesheet" type="text/css" href="/libs/revslider/settings.css" media='all'/>
+	    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.css">
+	    <link rel="stylesheet" type="text/css" href="/libs/owl-carousel/owl.carousel.css">
+	    <link rel="stylesheet" type="text/css" href="/css/home.css">
+	    <link rel="stylesheet" type="text/css" href="/libs/fullcalendar/fullcalendar.css"/>
+	    <link rel="stylesheet" type="text/css" href="/modules/Affiliations/aff.css">
+        <link rel="stylesheet" type="text/css" href="/libs/revolution/css/settings.css">
+        <link rel="stylesheet" type="text/css" href="/libs/revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="/libs/revolution/css/navigation.css">
+	    <link rel="stylesheet" type="text/css" href="/libs/owl-carousel/owl.theme.css">
+	    <link rel="stylesheet" type="text/css" href="/libs/owl-carousel/owl.transitions.css">
+	    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Bree+Serif|Fredoka+One|Lobster+Two|Patua+One|Slabo+27px|Cardo|Courgette|Droid+Sans|Droid+Serif|Lora|Merriweather|PT+SerifRoboto+Mono|Roboto+Slab" rel="stylesheet">
+	    <link href="/libs/font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet" media="screen">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBm0t5b6gyo6Go1EbYXT203rXeGOvfNug"></script>
+	    <script type="text/javascript" src='/libs/jquery.min.js'></script>
+	    <script type="text/javascript" src='/libs/jquery.validate.min.js'></script>
+	    <script type="text/javascript" src='/libs/waypoint.js'></script>
+	    <script type="text/javascript" src='/libs/skrollr.min.js'></script>
+	    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script> -->
+				
+		<script type='text/javascript' src='/libs/jquery.easing.min.js'></script>
+		<script type='text/javascript' src='/libs/revolution/js/jquery.themepunch.tools.min.js'></script>
+		<script type='text/javascript' src='/libs/revolution/js/jquery.themepunch.revolution.min.js'></script>
+		<script src="./libs/angularjs/angular.min.js"></script>
+	    <!-- <script src="./libs/angularjs/angular-animate.js"></script> -->
+	    <script src="/libs/angularjs/angular-cookies.min.js"></script>
+	    <script src="/libs/angularjs/angular-route.min.js"></script>
+	    <script src="/libs/angularjs/angular-touch.min.js"></script>
+	    <script type="application/javascript" src="./libs/momemntjs/moment.js"></script>
+	    <script type="text/javascript" src="/libs/fullcalendar/fullcalendar.js"></script>
+		<script type="text/javascript" src='/libs/materialize/js/materialize.js'></script>
+		<script type="text/javascript" src='/libs/owl-carousel/owl.carousel.js'></script>
+		<script type="text/javascript" src='/js/home.js'></script>
+		<script type="text/javascript" src="/js/config.js"></script>
+		<script type="text/javascript" src="/modules/Affiliations/aff.js"></script>
+		<script type="text/javascript" src="/modules/AboutUs/aboutus.js"></script>
+		<script type="text/javascript" src="/modules/Gallery/gallery.js"></script>
+		<script type="text/javascript" src="/modules/Admissions/admissions.js"></script>
+		<script type="text/javascript" src="/modules/Facilities/facilities.js"></script>
+		<script type="text/javascript" src="/modules/Achievements/achievements.js"></script>
+		<script type="text/javascript" src="/modules/Activities/activities.js"></script>
+	</head>
+
+	<body class="body">
+		<div id="container">
+			<div id="page-loading">
+				<img src="/images/pie.svg">
+			</div>
+			<div class="headerBar" style="display: none;">
+				<header id="header">
+	        		<div class="topheader clearfix" data-0="height:35px" data-500="height:0px">
+	            		<div class="wrap">
+	            			<div class="socialLinks">
+						        <div id="top-social">
+						       		<ul>
+						              	<li>
+						              		<a href="https://www.facebook.com/" target="_blank" class="si-facebook">
+						              			<span class="ts-icon"><i class="fa fa-facebook"></i></span>
+						              			<span class="ts-text">Facebook</span>
+						              		</a>
+						              	</li>
+						              	<li>
+						              		<a href="https://twitter.com/lpuuniversity" target="_blank" class="si-twitter" >
+						              			<span class="ts-icon"><i class="fa fa-twitter"></i></span>
+						              			<span class="ts-text">Twitter</span>
+						              		</a>
+						              	</li>
+						              	<li>
+						              		<a href="https://plus.google.com/u/0/102445329734305802454/posts" target="_blank" class="si-gplus">
+						              			<span class="ts-icon"><i class="fa fa-google-plus"></i></span>
+						              			<span class="ts-text">Google+</span>
+						              		</a>
+						              	</li>
+						              	<li>
+						              		<a href="tel:+918632350535" class="si-call">
+						              			<span class="ts-icon"><i class="fa fa-phone"></i></span>
+						              			<span class="ts-text">+91-8632-350535</span>
+						              		</a>
+						              	</li>
+						              	<li>
+						              		<a href="mailto:lfsgnt@yahoo.com" class="si-email3">
+						              			<span class="ts-icon"><i class="fa fa-envelope"></i></span>
+						              			<span class="ts-text">lfsgnt@yahoo.com</span>
+						              		</a>
+						              	</li>
+						            </ul>
+						      	</div>
+						    </div>
+		          		</div>
+		          	</div>
+		        </header>
+		        <div class="navigationDiv">
+		        	<div class="logoDiv">
+		        		<img src="/images/logo.png" class="schoolLogo">
+		        		<img src="/images/ribbon.png" class="ribbon">
+		        	</div>
+		        	<div class="schoolName">
+	          			<div class="schoolNameText">
+	          				<span>little flower school</span>
+	          			</div>
+	          			<div class="schoolAffText" >
+	          				<span class="love">Love</span>
+	          				<span class="knowledge">Knowledge</span>
+	          				<span class="service">Service</span>
+	          			</div>
+	          		</div>
+	          		<nav id="navigation" class="clearfix" >
+		          		<div class="nav-wrapper">
+		          			<a href="#" data-activates="menu-main-nav-2" class="button-collapse"><i class="fa fa-bars"></i></a>
+			                <ul id="menu-main-nav-1" class="menu clearfix hide-on-med-and-down">
+			                	<li class="home"><a href="/" >Home</a></li>
+								<li class='aboutus'><a class="dropdown-button" data-activates="aboutus">About us<i class="fa fa-sort-desc right"></i></a></li>
+									<ul style="display: none;" id="aboutus" class="dropdown-content">
+										<li class="aboutusli uili"><a href="about">About LFS</a></li>
+										<li class="history uili"><a href="history">History</a></li>
+										<li class="vismis uili"><a href="vision">Vision & Mission</a></li>
+										<li class="management"><a href="management">Management</a></li>
+									</ul>
+								<li class="acadamics withul"><a class="dropdown-button" data-activates="acadamics">Academics<i class="fa fa-sort-desc right"></i></a></li>
+									<ul style="display: none;" id="acadamics" class="dropdown-content">
+										<li class="affiliations uili"><a href="affiliations">Affiliations</a></li>
+										<li class="schoolcalender uili"><a href="calender">School Calender</a></li>
+									</ul>
+								<li class="menu-item admissions withul"><a class="dropdown-button"  data-activates="admissions">Admissions<i class="fa fa-sort-desc right"></i></a></li>
+									<ul style="display: none;" id="admissions" class="dropdown-content">
+										<li class="admission uili"><a href="admissions">Admissions</a></li>
+										<li class="enquiryform uili"><a href="enquiry">Enquiry Form</a></li>
+									</ul>
+								<!-- <li class="menu-item admissions"><a href="admissions">Admissions</a></li> -->
+								<li class="menu-item achievements"><a href="achievements">Achievements and Awards</a></li>
+								<!-- <li class="menu-item activities"><a href="activities">Activities</a></li> -->
+								<li class="menu-item activities withul"><a class="dropdown-button"  data-activates="activities">Activities<i class="fa fa-sort-desc right"></i></a></li>
+									<ul style="display: none;" id="activities" class="dropdown-content">
+										<li class="AcadAc uili"><a href="acadamic">Acadamic Activities</a></li>
+										<li class="SocailAc uili"><a href="social">Social</a></li>
+										<li class="ExtraAc uili"><a href="extracuricular">Extra Curricular</a></li>
+									</ul>
+								<li class="menu-item facilities"><a href="facilities">Facilities</a></li>
+								<li class="menu-item gallary"><a href="gallery">Gallery</a></li>
+								<li class="menu-item active contactus"><a href="contact">Contact us</a></li>
+								<li class="menu-item login"><a target="_blank" href="http://crownelearner.com">Login</a></li>
+							</ul>
+						</div>
+					</nav>
+		        </div>
+	        </div>
+	        <div ng-view class="page-content" style="display: none;">
+            	
+            </div>
+        </div>
+	</body>
+</html>

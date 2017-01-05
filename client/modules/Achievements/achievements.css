@@ -1,0 +1,95 @@
+.awardImage img{
+	max-width: 100%;
+	border-radius: 2px;
+}
+.awardBigImage img{
+    height: 200px;
+    border-radius: 2px;
+}
+.awardBigImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.awardsIntro .awardCard{
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom:20px;
+}
+.awardsIntro {
+    padding: 0px !important;
+}
+
+.achievementsDiv{
+	background-color: #70d5c9;
+    background-image: url(/images/dot-matrix.png);
+    padding: 0px 20px 60px 20px;
+}
+.awardContent{
+	padding: 30px;
+    padding-top: 0px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.awardContent p{
+	font-family: 'PT Serif', serif;
+    font-size: larger;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.awardImage{
+	padding: 30px;
+	border-radius: 30%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introSecondCol{
+	padding: 0px !important;
+}
+
+
+.achievementsDiv h4 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: -1px 12px 20px black;
+}
+.historyheading h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: -1px 12px 20px rgba(0, 0, 0, 0.27);
+}
+.smallAwards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.smallAwards .col .awardCard{
+    height: 100%;
+}
+.smallAwards .col {
+    margin-bottom: 20px;
+    margin-left: initial !important;
+}
+.smallAwards .z-depth-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.54), 0 1px 10px 0 rgba(0, 0, 0, 0.52), 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+}

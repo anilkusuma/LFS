@@ -1,0 +1,29 @@
+#CalendarDisplay{
+    background-color: white;
+    padding: 100px;
+    border-radius: 2px;
+}
+#CalendarMain thead{
+    border-bottom: none !important;
+}
+#Calendar .fc td,  .fc th {
+     border: 1px solid black !important; 
+}
+#Calendar .fc-ltr .fc-list-item-marker {
+    padding-right: 14px !important;
+}
+#Calendar .userEvent{
+    cursor: pointer;
+}
+#Calendar{
+	margin-top: 200px;
+}
+#CalendarMain{
+	padding: 100px;
+}
+#Calendar .fc-row .fc-content-skeleton td, .fc-row .fc-helper-skeleton td {
+    border: none !important;
+}
+#Calendar .fc-day-grid-event .fc-content {
+    font-weight: 600;
+}
